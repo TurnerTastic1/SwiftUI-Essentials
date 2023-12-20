@@ -14,6 +14,7 @@
 		D69E04BE2B33441B001FE246 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E04BD2B33441B001FE246 /* AppetizerListView.swift */; };
 		D69E04C02B334424001FE246 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E04BF2B334424001FE246 /* AccountView.swift */; };
 		D69E04C22B33442D001FE246 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E04C12B33442D001FE246 /* OrderView.swift */; };
+		D69E04C42B33494C001FE246 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E04C32B33494C001FE246 /* Appetizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		D69E04BD2B33441B001FE246 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		D69E04BF2B334424001FE246 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		D69E04C12B33442D001FE246 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		D69E04C32B33494C001FE246 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				D69E04AF2B334394001FE246 /* AppetizersApp.swift */,
 				D69E04B12B334394001FE246 /* AppetizerTabView.swift */,
+				D69E04C32B33494C001FE246 /* Appetizer.swift */,
 				D69E04B32B334395001FE246 /* Assets.xcassets */,
 				D69E04B52B334395001FE246 /* Preview Content */,
 				D69E04BD2B33441B001FE246 /* AppetizerListView.swift */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D69E04C42B33494C001FE246 /* Appetizer.swift in Sources */,
 				D69E04C02B334424001FE246 /* AccountView.swift in Sources */,
 				D69E04B22B334394001FE246 /* AppetizerTabView.swift in Sources */,
 				D69E04B02B334394001FE246 /* AppetizersApp.swift in Sources */,
