@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// Network ideas: Alamo fire?
+
 struct AppetizerTabView: View {
     var body: some View {
         TabView() {
