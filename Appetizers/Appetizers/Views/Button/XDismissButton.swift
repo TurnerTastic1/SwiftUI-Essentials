@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct XDismissButton: View {
+    
+    @Binding var isShowingDetail: Bool
+    
     var body: some View {
         Button {
-            print("dismiss")
+            isShowingDetail = false
         } label: {
             ZStack {
                 Circle()
@@ -28,5 +31,5 @@ struct XDismissButton: View {
 }
 
 #Preview {
-    XDismissButton()
+    XDismissButton(isShowingDetail: .constant(true))
 }

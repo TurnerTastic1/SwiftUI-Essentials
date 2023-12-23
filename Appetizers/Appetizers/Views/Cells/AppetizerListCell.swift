@@ -26,7 +26,8 @@ struct AppetizerListCell: View {
                     .fontWeight(.semibold)
             }
             .padding()
-        }    }
+        }
+    }
 }
 
 #Preview {
