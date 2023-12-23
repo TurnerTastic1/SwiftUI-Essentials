@@ -21,6 +21,7 @@
 		D69E04CC2B34FCAC001FE246 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E04CB2B34FCAC001FE246 /* AppetizerListViewModel.swift */; };
 		D69E04CE2B354A43001FE246 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E04CD2B354A43001FE246 /* Alert.swift */; };
 		D69E04D72B3550C3001FE246 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E04D62B3550C3001FE246 /* LoadingView.swift */; };
+		D69E04DB2B374520001FE246 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E04DA2B374520001FE246 /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		D69E04CB2B34FCAC001FE246 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 		D69E04CD2B354A43001FE246 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		D69E04D62B3550C3001FE246 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		D69E04DA2B374520001FE246 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				D69E04CB2B34FCAC001FE246 /* AppetizerListViewModel.swift */,
 				D69E04CD2B354A43001FE246 /* Alert.swift */,
 				D69E04D62B3550C3001FE246 /* LoadingView.swift */,
+				D69E04DA2B374520001FE246 /* RemoteImage.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				D69E04CC2B34FCAC001FE246 /* AppetizerListViewModel.swift in Sources */,
 				D69E04C02B334424001FE246 /* AccountView.swift in Sources */,
 				D69E04B22B334394001FE246 /* AppetizerTabView.swift in Sources */,
+				D69E04DB2B374520001FE246 /* RemoteImage.swift in Sources */,
 				D69E04D72B3550C3001FE246 /* LoadingView.swift in Sources */,
 				D69E04C82B34F615001FE246 /* NetworkManager.swift in Sources */,
 				D69E04B02B334394001FE246 /* AppetizersApp.swift in Sources */,
