@@ -17,7 +17,7 @@ struct AppetizerTabView: View {
                     Image(systemName: "house")
                     Text("Home")
                 }
-                .padding()
+//                .padding() - 
             AccountView()
                 .tabItem {
                     Image(systemName: "person")
