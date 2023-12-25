@@ -29,6 +29,7 @@
 		D69E04F32B378AB7001FE246 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E04F22B378AB7001FE246 /* String+Ext.swift */; };
 		D69E04F52B37D6C1001FE246 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E04F42B37D6C1001FE246 /* User.swift */; };
 		D69E04F82B38A4B1001FE246 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E04F72B38A4B1001FE246 /* EmptyState.swift */; };
+		D69E04FA2B3A2112001FE246 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E04F92B3A2112001FE246 /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		D69E04F22B378AB7001FE246 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		D69E04F42B37D6C1001FE246 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D69E04F72B38A4B1001FE246 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		D69E04F92B3A2112001FE246 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 			children = (
 				D69E04C32B33494C001FE246 /* Appetizer.swift */,
 				D69E04F42B37D6C1001FE246 /* User.swift */,
+				D69E04F92B3A2112001FE246 /* Order.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				D69E04C62B34F541001FE246 /* AppetizerListCell.swift in Sources */,
 				D69E04CC2B34FCAC001FE246 /* AppetizerListViewModel.swift in Sources */,
 				D69E04C02B334424001FE246 /* AccountView.swift in Sources */,
+				D69E04FA2B3A2112001FE246 /* Order.swift in Sources */,
 				D69E04B22B334394001FE246 /* AppetizerTabView.swift in Sources */,
 				D69E04F82B38A4B1001FE246 /* EmptyState.swift in Sources */,
 				D69E04EF2B37720B001FE246 /* APButton.swift in Sources */,

@@ -12,18 +12,14 @@ struct APButton: View {
     let title: LocalizedStringKey
     
     var body: some View {
-        Button {
-            print("tapped")
-        } label: {
-            Text(title)
-                .font(.title3)
-                .fontWeight(.semibold)
-                .frame(width: 250, height: 60)
-                .foregroundColor(.white)
-                .background(Color.brandPrimary)
-                .cornerRadius(10)
-        }
-        .padding(.bottom, 30)
+        Text(title)
+            .font(.title3)
+            .fontWeight(.semibold)
+            .frame(width: 250, height: 60)
+            .foregroundColor(.white)
+            .background(Color.brandPrimary)
+            .cornerRadius(10)
+            .padding(30)
     }
 }
 
