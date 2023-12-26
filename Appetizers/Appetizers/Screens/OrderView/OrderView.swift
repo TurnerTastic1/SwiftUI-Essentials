@@ -16,10 +16,15 @@ struct OrderView: View {
             ZStack {
                 VStack {
                     List {
-                        ForEach(order.items) { appetizer in
-                            AppetizerListCell(appetizer: appetizer)
+                        ForEach(order.items.keys.sorted(by: { $0.name < $1.name }), id: \.self) { appetizer in
+                            AppetizerListCell(appetizer: appetizer, appetizerCount: order.items[appetizer] ?? 0)
                         }
-                        .onDelete(perform: order.deleteItems)
+                        .onDelete { indexSet in
+                            indexSet.forEach { index in
+                                let appetizer = order.items.keys.sorted(by: { $0.name < $1.name })[index]
+                                order.delete(appetizer)
+                            }
+                        }
                     }
                     .listStyle(PlainListStyle())
                     

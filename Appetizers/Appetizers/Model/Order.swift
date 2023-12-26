@@ -7,19 +7,44 @@
 
 import SwiftUI
 
+//final class Order: ObservableObject {
+//    
+//    @Published var items: [Appetizer] = []
+//    
+//    var totalPrice: Double {
+//        items.reduce(0) { $0 + $1.price }
+//    }
+//    
+//    func add(_ appetizer: Appetizer) {
+//        items.append(appetizer)
+//    }
+//    
+//    func deleteItems(at offsets: IndexSet) {
+//        items.remove(atOffsets: offsets)
+//    }
+//}
+
 final class Order: ObservableObject {
     
-    @Published var items: [Appetizer] = []
+    @Published var items: [Appetizer: Int] = [:]
     
     var totalPrice: Double {
-        items.reduce(0) { $0 + $1.price }
+        items.reduce(0) { $0 + $1.key.price * Double($1.value) }
     }
     
     func add(_ appetizer: Appetizer) {
-        items.append(appetizer)
+        if let count = items[appetizer] {
+            items[appetizer] = count + 1
+        } else {
+            items[appetizer] = 1
+        }
     }
     
-    func deleteItems(at offsets: IndexSet) {
-        items.remove(atOffsets: offsets)
+    func delete(_ appetizer: Appetizer) {
+        if let count = items[appetizer], count > 1 {
+            items[appetizer] = count - 1
+        } else {
+            items.removeValue(forKey: appetizer)
+        }
     }
 }
